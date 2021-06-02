@@ -1,0 +1,363 @@
+{
+    "fireeye-14": {
+        "doc": "In mid-July 2019, FireEye Threat Intelligence observed multiple files that were being used to deliver the COOLPANTS backdoor. While we have not yet identified any phishing emails associated with this campaign, there is some indication this activity impacted financial institutions based in Latvia and Panama. Based on the use of overlapping tactics, techniques, and procedures (TTPs), we assess with low confidence that the recent KAYSLICE/COOLPANTS campaign can be attributed to TEMP.MetaStrike (aka Cobalt Group).",
+        "roles": {
+            "adversary": [
+                [
+                    "TEMP.MetaStrike",
+                    "Cobalt Group"
+                ]
+            ],
+            "capability": [
+                [
+                    "COOLPANTS backdoor",
+                    "KAYSLICE/COOLPANTS"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "financial institutions based in Latvia and Panama"
+                ]
+            ]
+        }
+    },
+    "fireeye-25": {
+        "doc": "Spear-phishing campaigns were identified targeting U.S. think tanks and federally funded research and development centers (FFRDCs) with LATEOP malware in May and June 2019. This activity is likely linked to previous spear-phishing campaigns targeting similar victims during the past year, and conducted by the same distinct actor, although attribution remains unclear. Based on lure content, targeting patterns, and tactics, techniques, and procedures (TTPs) overlap, we believe this activity is likely conducted by an actor with a North Korean nexus.",
+        "roles": {
+            "adversary": [
+                [
+                    "actor"
+                ],
+                [
+                    "actor with a North Korean nexus"
+                ]
+            ],
+            "capability": [
+                [
+                    "Spear-phishing",
+                    "spear-phishing"
+                ],
+                [
+                    "LATEOP malware"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "U.S. think tanks"
+                ],
+                [
+                    "federally funded research and development centers (FFRDCs)"
+                ]
+            ]
+        }
+    },
+    "fireeye-35": {
+        "doc": "FireEye Threat Intelligence identified two operations conducted during the March through May 2019 Ukrainian and Lithuanian presidential elections, respectively, that we assess with high confidence are part of a previously reported suspected pro-Russia campaign. We surmise that the respective operations leveraged fabricated Facebook private messages between Ukrainian and Pittsburgh, PA Jewish community leaders, and between a Lithuanian presidential candidate and a former Ambassador of Georgia to Lithuania, which were used as source material to promote narratives critical of former Ukrainian President Petro Poroshenko and Lithuanian presidential candidate Ingrida &Scaron;imonyt\u0117.",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "fireeye-45": {
+        "doc": "FireEye detected and blocked a suspected APT28 phishing operation that targeted an Eastern European Ministry of Foreign Affairs (MOFA). The malicious phishing messages were delivered with EYEGRAB malware, a GoLang variant of BASESHOW that takes screenshots of a victim's desktop and can accept commands from a command and control (C&amp;C) server. FireEye assesses with moderate confidence that this operation is attributed to APT28-based technical analysis and targeting consistent with previous operations.",
+        "roles": {
+            "adversary": [
+                [
+                    "APT28",
+                    "APT28-based"
+                ]
+            ],
+            "capability": [
+                [
+                    "malicious phishing messages"
+                ],
+                [
+                    "EYEGRAB malware"
+                ],
+                [
+                    "BASESHOW"
+                ],
+                [
+                    "command and control (C&amp;C) server"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "desktop"
+                ]
+            ],
+            "victim": [
+                [
+                    "Eastern European Ministry of Foreign Affairs (MOFA",
+                    "victim's"
+                ]
+            ]
+        }
+    },
+    "fireeye-63": {
+        "doc": "DanaBot is a modular banking Trojan that was first seen in May 2018. FireEye Threat Intelligence previously reported that the malware appears to be operated by one group that likely has multiple customers responsible for its distribution. We have high confidence that JimmBee's private banking malware advertised in mid-April 2018 is DanaBot based on multiple similarities in the malware and recent claims made by other threat actors that JimmBee sells DanaBot. The frequent updates made to DanaBot, the moderate interest shown from other actors in the malware, and the DanaBot campaigns we have observed up to this point suggest it will be used to facilitate malicious operations for at least the near term.",
+        "roles": {
+            "adversary": [
+                [
+                    "one group",
+                    "JimmBee",
+                    "JimmBee"
+                ],
+                [
+                    "other threat actors"
+                ]
+            ],
+            "capability": [
+                [
+                    "DanaBot",
+                    "modular banking Trojan",
+                    "malware",
+                    "private banking malware",
+                    "DanaBot",
+                    "DanaBot",
+                    "DanaBot",
+                    "DanaBot"
+                ],
+                [
+                    "DanaBot",
+                    "DanaBot",
+                    "DanaBot",
+                    "DanaBot",
+                    "DanaBot"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "fireeye-64": {
+        "doc": "In August 2019, media outlets reported on a cryptomining incident at a nuclear power plant in Ukraine. Some reports suggested that the cryptocurrency mining farm used operational technology (OT) \"supercomputers\" and exposed information related to physical security. FireEye Threat Intelligence assesses with high confidence that the cryptocurrency mining farm was limited to employee-owned equipment not connected to OT systems. We posit the possibility that the incident exposed OT systems to unnecessary risk. The incident highlights the risks associated with rogue devices and malicious insiders. We stress the importance of device authentication and management controls, such as the separation of duties and internal job rotation.",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "rogue devices"
+                ],
+                [
+                    "malicious insiders"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "operational technology (OT) \"supercomputers\"",
+                    "OT systems",
+                    "OT systems"
+                ]
+            ],
+            "victim": [
+                [
+                    "cryptocurrency mining farm",
+                    "cryptocurrency mining farm"
+                ]
+            ]
+        }
+    },
+    "fireeye-69": {
+        "doc": "Incidental malware remains a threat for Windows-based operational technology (OT) assets when left unprotected. FireEye Threat Intelligence identified a large number of OT binaries infected from portable executable (PE) malware. While there is no indication that this activity was specifically targeting OT systems, incidental outbreaks can have serious implications for OT environments. Asset owners should prioritize implementing prevention methods and controls to avert infections in their environments and ensure backups are captured and tested for process critical assets.",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "portable executable (PE) malware"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "Windows-based operational technology (OT) assets",
+                    "OT binaries",
+                    "OT systems",
+                    "OT environments"
+                ]
+            ],
+            "victim": []
+        }
+    },
+    "fireeye-76": {
+        "doc": "A cyber espionage operation targeted a possible Kazakhstan entity with a malicious document that exploits CVE-2017-11882.Following successful exploitation, the sample drops WHITEFERRY malware, a reconnaissance tool that appears to target systems on an air-gapped networks. WHITEFERRY's air-gapped design suggests that the program could potentially be used against secure government, military, or financial organizations.",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "WHITEFERRY malware",
+                    "WHITEFERRY",
+                    "the program"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "CVE-2017-"
+                ]
+            ],
+            "victim": [
+                [
+                    "possible Kazakhstan entity"
+                ]
+            ]
+        }
+    },
+    "fireeye-79": {
+        "doc": "During several recent incident response engagements, FireEye Mandiant investigators uncovered new tools in FIN7's malware arsenal and kept pace as the global criminal operators attempted new evasion techniques. The first of FIN7's new tools is BOOSTWRITE, an in-memory-only dropper that decrypts embedded payloads using an encryption key retrieved from a remote server at runtime. One of the analyzed BOOSTWRITE variants contained two payloads: CARBANAK and RDFSNIFFER. RDFSNIFFER appears to have been developed to tamper with the NCR Corporation \"Aloha Command Center\" client. While these incidents also included FIN7's typical and long-used toolsets, such as CARBANAK and BABYMETAL, the introduction of new tools and techniques provides further evidence FIN7 is continuing to evolve in response to security enhancements.",
+        "roles": {
+            "adversary": [
+                [
+                    "FIN7",
+                    "FIN7",
+                    "FIN7",
+                    "FIN7"
+                ]
+            ],
+            "capability": [
+                [
+                    "BOOSTWRITE",
+                    "an in-memory-only dropper",
+                    "BOOSTWRITE"
+                ],
+                [
+                    "RDFSNIFFER",
+                    "RDFSNIFFER"
+                ],
+                [
+                    "CARBANAK",
+                    "CARBANAK"
+                ],
+                [
+                    "BABYMETAL"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "\"Aloha Command Center\" client"
+                ]
+            ],
+            "victim": [
+                [
+                    "NCR Corporation"
+                ]
+            ]
+        }
+    },
+    "bleeping-0": {
+        "doc": "Malware researchers have come across a new Remote Access Trojan (RAT) that uses a novel technique to evade detection on corporate networks by fetching malicious PowerShell commands stored inside a domain's DNS TXT records.\n The malware, nicknamed DNSMessenger, was first detected by a security researcher named Simpo.\n The RAT came to the attention of the Cisco Talos security team after Simpo discovered a Base64 string that translated back to \"SourceFireSux,\" SourceFire being one of Cisco's corporate security products.\n\n Welp, someone doesn't like SourceFire pic.twitter.com/NzuGXZ0WgC\n\u2014 simpo (@Simpo13) February 24, 2017\n This wasn't up to Cisco's liking, and its researchers decided to investigate further. What they found was a malware that was more advanced than they ever expected.\n",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "malicious PowerShell commands"
+                ],
+                [
+                    "Remote Access Trojan (RAT)",
+                    "malware",
+                    "DNSMessenger",
+                    "RAT",
+                    "malware"
+                ],
+                [
+                    "malicious PowerShell commands"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "corporate networks"
+                ],
+                [
+                    "domain's DNS TXT records"
+                ],
+                [
+                    "domain's DNS TXT records"
+                ]
+            ],
+            "victim": []
+        }
+    },
+    "bleeping-85": {
+        "doc": "The Android Debug Bridge (adb) backup and restore commands\u00a0may be removed in a future Android release, as detailed in a commit merged into\u00a0 the\u00a0Android\u00a0Open Source Project (AOSP) git repository.\n adb is a highly adaptable command-line based utility which allows Android users to communicate with Android devices via a USB or Wi-Fi connection according to the Android Studio user guide.\n The adb tool can be\u00a0easily installed with the standalone Android SDK Platform-Tools\u00a0package\u00a0and it\u00a0allows users to perform various tasks from installing and debugging apps to backing up and restoring their devices.\n\n adb backup and restore deprecation messages.jpg\n As the \"Add deprecation warning to adb backup/restore\"\u00a0commit\u00a0discovered by\u00a0XDA-Developers says,\u00a0deprecation warnings will be displayed whenever users will try to run the backup or restore adb commands.\n",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "bleeping-90": {
+        "doc": "Magecart\u00a0threat actors have been spotted this week while starting to abuse Salesforce's Heroku\u00a0cloud application platform to host\u00a0their card skimming scripts and to store stolen\u00a0payment card info.\n Heroku\u00a0is a cloud platform-as-a-service (Paas) designed to help companies and individual developers to speedily build and host web apps without having to worry about also managing the infrastructure behind them.\n Multiple examples of\u00a0Heroku-hosted\u00a0Magecart skimmers were found by\u00a0Malwarebytes' Threat Intelligence team with most of them being used in active campaigns since the beginning of this week.\n The Magecart scripts found on Heroku\u00a0were all reported to the Salesforce Abuse Operations team\u00a0which promptly took them all down according to the Malwarebytes researchers.\n\n\n Heroku-hosted skimmer found on Panafoto (Image: Malwarebytes Labs)\n\n\n Heroku used and abused\n",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "card skimming scripts"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "cloud application platform"
+                ],
+                [
+                    "payment card info"
+                ]
+            ],
+            "victim": [
+                [
+                    "Salesforce's Heroku",
+                    "Heroku",
+                    "Heroku"
+                ],
+                [
+                    "Salesforce Abuse Operations team"
+                ]
+            ]
+        }
+    },
+    "bleeping-103": {
+        "doc": "As thanks for helping grow the ProtonMail platform, the encrypted email platform is giving their existing paid subscribers 5GB of extra storage space for free.\n Yesterday, ProtonMail emailed paid subscribers thanking them for their continued support and for helping ProtonMail grow their member base by 10 million people in the last year alone.\n \"As a way to say thanks for your early support, we are giving everyone with an existing paid plan 5GB of extra storage for free. For multi-user ProtonMail Professional plans, you will receive 5GB of extra storage per account. Because the bonus is to thank our longtime supporters, it only applies to users who upgraded before Nov. 10, 2019. This bonus storage upgrade is permanent as long as you continue your subscription with us. \u00a0",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "bleeping-105": {
+        "doc": "Oregon urban school district\u00a0Portland Public Schools is on track to recover roughly $2.9 million wired by district employees to a BEC scammer, after discovering the fraudulent transactions before the money left the fraudster's\u00a0accounts.\n Portland Public Schools is a PK-12 urban school district in Portland, Oregon, with over\u00a049,000 students enrolled in 81 schools, and one of the largest ones in the Pacific Northwest.\n BEC\u00a0(also known as EAC, short for Email Account Compromise) fraud schemes are scams through which fraudsters attempt to trick one or more\u00a0employees of a targeted organization\u00a0into wiring them money.\n These attacks are successful because the crooks pose as\u00a0entities the organization's staff\u00a0trusts like the company's CEO or a\u00a0trusted business partner, with the legitimate bank accounts\u00a0being surreptitiously swapped with attacker-controlled ones.\n\n\n Image:",
+        "roles": {
+            "adversary": [
+                [
+                    "fraudster"
+                ]
+            ],
+            "capability": [
+                [
+                    "BEC scammer",
+                    "BEC"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "Portland Public Schools",
+                    "Portland Public Schools",
+                    "PK-12 urban school district",
+                    "the organization",
+                    "the company"
+                ]
+            ]
+        }
+    },
+    "bleeping-106": {
+        "doc": "The\u00a0GitHub\u00a0Git repository hosting platform experienced a\u00a0widespread and major services outage impacting the\u00a0Issues, PRs, Dashboard, Projects, and\u00a0Notifications features.\n GitHub offers its users the\u00a0source code management (SCM) and distributed version control functionality of Git in the cloud, without the hassle of configuring their own servers to host a Git installation locally.\n On top of the default Git features, GitHub also comes with team collaboration and access control features like task management and bug tracking.\n However, given that it's a cloud solution, the GitHub platform is affected once in a while by various issues impacting some or all of its features, directly affecting its users capability of managing their Git repositories hosted on the platform.\n\n\n GitHub outage map (Image: Downdetector)\n\n\n Worldwide GitHub services outage\n",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    }
+}

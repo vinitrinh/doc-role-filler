@@ -1,0 +1,388 @@
+{
+    "fireeye-0": {
+        "doc": "We believe TEMP.Mana, a Chinese cyber espionage group, is linked to infrastructure spoofing domains of at least two U.S. chemical manufacturers. Similar activity suspected of being tied to TEMP.Mana reinforces the risk to the chemical sector and related industries.",
+        "roles": {
+            "adversary": [
+                [
+                    "TEMP.Mana",
+                    "Chinese cyber espionage group",
+                    "TEMP.Mana"
+                ]
+            ],
+            "capability": [
+                [
+                    "infrastructure spoofing domains of"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "two U.S. chemical manufacturers"
+                ]
+            ]
+        }
+    },
+    "fireeye-16": {
+        "doc": "A software error in GPS receivers caused an outage of Automatic Dependent Surveillance-Broadcast (ADS-B) aircraft tracking systems, grounding 400 flights. With a federal mandate for ADS-B adoption approaching in January 2020, we consider the known vulnerabilities in the system. FireEye Threat Intelligence views the current risk of ADS-B attacks as low, given their complexity, but warns that inexpensive hardware and broader adoption could make the system a target for motivated attackers. This incident highlights the need to consider the robustness and resilience of critical positioning, navigation, and timing systems and communication infrastructure in the aviation sector.",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "known vulnerabilities"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "GPS receivers"
+                ],
+                [
+                    "Automatic Dependent Surveillance-Broadcast (ADS-B) aircraft tracking systems,",
+                    "ADS-B",
+                    "ADS-B",
+                    "system"
+                ]
+            ],
+            "victim": [
+                [
+                    "aviation sector"
+                ]
+            ]
+        }
+    },
+    "fireeye-56": {
+        "doc": "FireEye Threat Intelligence has identified an influence operation conducted in July 2019 that we assess with high confidence is part of a suspected pro-Russia campaign on which we have previously reported. We surmise the operation leveraged fabricated WhatsApp chats between an employee of the U.S. Embassy in Kazakhstan and an unknown party, which were used as source material to promote the narrative that the U.S. Government is planning to organize a coup in Kazakhstan. We assess with low confidence that the purported hacktivist actor Anonymous Kazakhstan, which claimed responsibility for leaking the alleged WhatsApp chats, is a false hacktivist persona.",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "fireeye-72": {
+        "doc": "In mid-September 2019, FireEye Threat Intelligence identified a phishing campaign delivering KAYSLICE and COOLPANTS malware that used XZ archive attachments containing either a JavaScript dropper or RTF downloader document. This campaign involved tactics, techniques, and procedures (TTPs) that have previously been used in both TEMP.MetaStrike (aka Cobalt Group) and TEMP.Splinter campaigns. Notably, this is the first campaign that involved the targeting of Russian organizations where TTPs associated with TEMP.Splinter have been observed.",
+        "roles": {
+            "adversary": [
+                [
+                    "TEMP.MetaStrike",
+                    "Cobalt Group"
+                ],
+                [
+                    "TEMP.Splinter",
+                    "TEMP.Splinter"
+                ]
+            ],
+            "capability": [
+                [
+                    "COOLPANTS malware"
+                ],
+                [
+                    "XZ archive attachments"
+                ],
+                [
+                    "KAYSLICE"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "Russian organizations"
+                ]
+            ]
+        }
+    },
+    "bleeping-7": {
+        "doc": "TalkTalk, a UK-based Internet service provider, has temporarily banned TeamViewer and other similar remote control software programs, citing security issues related to increased scam operations.\n The ban appears to have gone into effect on Wednesday, and TalkTalk customers flocked to the company's forums to complain and demand answers [1, 2].\n \"Since this afternoon, I have been unable to use Teamviewer through a TalkTalk connection,\" said the first user that complained about the block, saying that TeamViewer works fine from his mobile 4G connection, but not his home TalkTalk line. Tens of other users followed suite and shared similar experiences.\n As it became clear to all that TalkTalk had banned TeamViewer on its network, the company admitted the issues through a representative.\n",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "bleeping-9": {
+        "doc": "A new malicious application tries to disguise itself as the Google Chrome browser to fool victims into entering their payment card details. The app is still active at the time of writing and sends collected user details to an AOL email address.\n Discovered today by MalwareHunter, this application goes above and beyond of what other card stealers have attempted, most of which are half-baked efforts, often easy to recognize as malicious applications thanks to their quirky graphics and misaligned designs.\n This app, named \"Betaling - Google Chrome.exe\", tries to pass as the Google Chrome browser\u00a0and does a good job at it. Betaling (\"Payment\" in Dutch) uses the standard Chrome icon and window layout, complete with an address bar, and even an HTTPS lock icon to trick users they're on a real website.\n\n\n Betaling giveaways!\n",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "malicious application",
+                    "The app",
+                    "this application",
+                    "This app",
+                    "\"Betaling - Google Chrome.exe\""
+                ],
+                [
+                    "standard Chrome icon and window layout"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "payment card details"
+                ],
+                [
+                    "AOL email address"
+                ]
+            ],
+            "victim": []
+        }
+    },
+    "bleeping-36": {
+        "doc": "Attackers are exploiting the hype surrounding this year's Oscar Best Picture nominated movies to infect fans with malware and to bait them to phishing websites designed to steal sensitive info such as credit card details and personal information.\n This method is the perfect way to get around movie fans' defenses seeing that many of them are willing to take down their defenses for a chance to get a free preview, especially given that the 92nd Academy Awards ceremonies are just around the corner on February 9th.\n High-profile TV shows and films are frequently used as lures in social engineering attacks promising early previews either in the form of fake streaming sites or via malicious files disguised as early released copies.\n Over 20 phishing sites use Oscar baits\n Kaspersky researchers who discovered these ongoing attacks \"found more than 20 phishing websites and 925 malicious files that were presented as free movies, only to attack the user.\"\n \"The uncovered phishing websites and Twitter accounts gather users\u2019 data and prompt them to carry out a variety of tasks in order to gain access to the desired film,\" a press release published today says.\n",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "malware"
+                ],
+                [
+                    "phishing websites",
+                    "phishing sites",
+                    "phishing websites",
+                    "phishing websites"
+                ],
+                [
+                    "social engineering"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "credit card details"
+                ]
+            ],
+            "victim": [
+                [
+                    "fans",
+                    "them",
+                    "movie fans",
+                    "many of them",
+                    "their",
+                    "user",
+                    "users"
+                ]
+            ]
+        }
+    },
+    "bleeping-42": {
+        "doc": "Three more ransomware families have created sites that are being used to leak the stolen data of non-paying victims and further illustrates why all ransomware attacks must be considered data breaches.\n Ever since Maze created their \"news\" site to publish stolen data of their victims who choose not to pay, other ransomware actors such as Sodinokibi/REvil, Nemty, and DoppelPaymer have been swift to follow.\n Over the past two days, BleepingComputer has learned of another three ransomware families who have now launched their\u00a0data leak sites, which are listed below.\n While we have been saying it for a long time, with the continued release of data leak sites, ransomware attacks must be treated as data breaches now that the personal and private data of employees is being published online.\n To make matters worse, other threat actors are taking the data exposed in these leaks and selling it on hacker forums so it can be utilized in other attacks.\n Nefilim Ransomware\n",
+        "roles": {
+            "adversary": [
+                [
+                    "other ransomware actors",
+                    "other threat actors"
+                ],
+                [
+                    "Maze"
+                ]
+            ],
+            "capability": [
+                [
+                    "ransomware",
+                    "ransomware",
+                    "ransomware"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "non-paying victims",
+                    "employees"
+                ]
+            ]
+        }
+    },
+    "bleeping-56": {
+        "doc": "Bad news from malware-land after security researchers from IBM reported today they'd discovered the first samples of version 4.0 of the infamous and highly-active Dridex banking trojan.\n One of the lesser known things about computer viruses is the fact that malware is very similar to normal software, often going through the same development cycles and receiving constant updates.\n While most malware operators strive to keep as much of their source code and operational details hidden, the Dridex crew has always embedded the malware\u2019s version number in its source, which, in turn, has permitted researchers to easily track its evolution.\n Dridex reaches v4 two years after launch\n This version number included in Dridex binaries and configuration files has allowed researchers to create a timeline of major Dridex versions. For example, based on the version numbers, Dridex v1 launched in late 2014 and only lasted up until the first days of 2015.\n",
+        "roles": {
+            "adversary": [
+                [
+                    "Dridex crew"
+                ]
+            ],
+            "capability": [
+                [
+                    "Dridex banking trojan",
+                    "the malware",
+                    "Dridex",
+                    "Dridex",
+                    "Dridex",
+                    "Dridex"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "bleeping-58": {
+        "doc": "Michael Thomas, a systems administrators who was convicted in 2016 for destroying his employer's network before resigning his job, has filed an appeal in which his lawyers are arguing that in reality he actually was authorized to trash the company's IT network, in a criminal case that might change the way judges look at the CFAA (Computer Fraud and Abuse Act).\n All of this started in December 2011, when Thomas was working for ClickMotive, a company that builds websites for car dealerships.\n According to court documents, embedded below, Thomas got upset on Thursday, December 1, 2011, when ClickMotive's leadership fired fellow and senior IT admin Andrew Cain.\n Cain, who shortly after started preparing a lawsuit against ClickMotive for unlawful termination, told Thomas that the company's founders fired him because he was one of their first employees, and they didn't want to share a bonus with him when they would eventually sell the company later on.\n This upset Thomas, who described Cain as a friend, but also because leadership offered him a bonus immediately after they fired Cain, even if he was now supposed to do the job of two people.\n A weekend from hell makes Thomas quit\n",
+        "roles": {
+            "adversary": [
+                [
+                    "Michael Thomas",
+                    "a systems administrators",
+                    "his",
+                    "he",
+                    "Thomas",
+                    "Thomas",
+                    "Thomas",
+                    "him",
+                    "he",
+                    "him",
+                    "Thomas",
+                    "Thomas"
+                ]
+            ],
+            "capability": [],
+            "infrastructure": [
+                [
+                    "his employer's network",
+                    "IT network"
+                ]
+            ],
+            "victim": [
+                [
+                    "the company",
+                    "ClickMotive",
+                    "a company",
+                    "ClickMotive",
+                    "ClickMotive"
+                ]
+            ]
+        }
+    },
+    "bleeping-66": {
+        "doc": "Intel fixed\u00a020 security vulnerabilities in the Intel Graphics Driver for Windows which would lead to escalation of privilege, denial of service, or information disclosure if exploited by attackers with local access to the system under attack.\n According to the QSR advisory published 2 days ago, Intel issued multiple updates for its into graphics driver for Windows designed to mitigate the vulnerabilities found by internal and external security researchers.\n Out of the 20 vulnerabilities found in the Intel Graphics Driver for Windows, two were rated as high risk\u00a0with CVSS Base Scores of 7.3 and 8.2, allowing local attackers to\u00a0execute arbitrary code after escalating their privileges.\n Attackers require local access to exploit Intel Graphics Driver flaws\nTo be more exact, the security issues tracked as\u00a0CVE-2018-12214\u00a0and CVE-2018-12216\u00a0could lead to an escalation of privileges for local users following a\u00a0potential memory corruption in Kernel Mode Driver and insufficient input validation in Kernel Mode Driver, respectively.\n The rest of the 18 vulnerabilities patched by Intel were rated as low and medium risk, all of them being exploitable via\u00a0local attack vectors with low attack complexity and no\u00a0user interaction needed\u2014the only ones who would need the user's attention are\u00a0CVE-2018-18090\u00a0and\u00a0CVE-2018-18091\u00a0that would trigger a DoS state.\n\n As detailed in the advisory, \"Intel recommends that users of Intel\u00a0Graphics Driver for Windows\u00a0update to versions 10.18.x.5059 (aka 15.33.x.5059), 10.18.x.5057 (aka 15.36.x.5057), 20.19.x.5063 (aka 15.40.x.5063",
+        "roles": {
+            "adversary": [
+                [
+                    "attackers with local access",
+                    "local attackers"
+                ]
+            ],
+            "capability": [
+                [
+                    "denial of service",
+                    "DoS"
+                ],
+                [
+                    "information disclosure"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "CVE-2018-18090"
+                ],
+                [
+                    "Intel\u00a0Graphics Driver"
+                ],
+                [
+                    "Windows\u00a0update"
+                ],
+                [
+                    "CVE-2018-12214"
+                ],
+                [
+                    "CVE-2018-12216"
+                ],
+                [
+                    "CVE-2018-18091"
+                ],
+                [
+                    "Intel Graphics Driver for Windows",
+                    "graphics driver for Windows",
+                    "Intel Graphics Driver for Windows",
+                    "Intel Graphics Driver",
+                    "Graphics Driver for Windows"
+                ]
+            ],
+            "victim": [
+                [
+                    "users of Intel\u00a0Graphics Driver for Windows"
+                ]
+            ]
+        }
+    },
+    "bleeping-80": {
+        "doc": "Google has released Chrome 74 into the beta channel and with it comes the browser's highly anticipated Dark Mode feature for Windows 10. In Chrome 74, Google has finally made it possible for Chrome to detect when dark mode is enabled in Windows 10 and switch to dark mode in the browser.\n While Mac users received a working Dark Mode\u00a0in Chrome 73, the code for synchronizing Windows 10's color settings with Google Chrome's Dark Mode had not been wired up in time. This feature\u00a0is now available in Chrome 74 beta that was released today.\n This means if you enabled Dark Mode in\u00a0Windows 10, Chrome will automatically honor the setting and switch to Dark Mode in the browser as well. Unfortunately, the synchronization still has some bugs to work out.\u00a0\n",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "bleeping-91": {
+        "doc": "A new smishing campaign, or text message phishing campaign, is targeting Nokia owners in India. These text messages pretend to be from Nokia and state that the recipient has won a lucky draw to win a car or money.\n In a forum post made by a Nokia staff member, Nokia is warning users to ignore any text messages that claim to be from Nokia that state that the customer has won a lucky draw.\u00a0\n\n\n Warning from Nokia\n\n\n These text messages state that the recipient has won either a Tata Safari or 1,260,000 Indian Rupees and must call them to pay 6,500 Rs in order to collect the prize.\u00a0  The text messages themselves claim to be from \"Nokia.com online shopping pvt Ltd.co\" and are filled with grammatical errors and other inconsitencies that would make it surprising that anyone would fall for this scam.\n\n\n",
+        "roles": {
+            "adversary": [],
+            "capability": [
+                [
+                    "text message phishing campaign"
+                ]
+            ],
+            "infrastructure": [],
+            "victim": [
+                [
+                    "Nokia owners in India"
+                ],
+                [
+                    "Nokia",
+                    "Nokia",
+                    "Nokia"
+                ]
+            ]
+        }
+    },
+    "bleeping-92": {
+        "doc": "Microsoft has stated that Windows 7 support will end in January 2020 and customers are recommended to upgrade to Windows 10 for monthly security updates. For those who wish to continue using Windows 7 beyond January 2020, you can either risk using the OS without security updates or pay Microsoft to get support for another three years under its Extended Security Updates (ESU) program.\n Last year Microsoft announced\u00a0Extended Security Updates (ESU), a program that allows businesses to continue to pay for continued monthly security updates for up to three years.\n A price chart obtained by ZDNet revealed that customers will have to pay $50 per Windows 7 Pro device in the first year, $100 in the second year, and finally $200 per device in the third year. For Enterprise customers, Microsoft is instead pricing it as a more affordable addon\u00a0at $25/device for the year, $50 for the second year, and $100 for the third year.\n\n",
+        "roles": {
+            "adversary": [],
+            "capability": [],
+            "infrastructure": [],
+            "victim": []
+        }
+    },
+    "bleeping-98": {
+        "doc": "Hackers injected the Forbes' subscription website with a Magecart script which collects payment card data customers introduce on the checkout page and exfiltrates it to a server controlled by the attackers.\n As revealed by Bad Packets Report's co-founder Troy Mursch, the script collects card numbers, expiration dates, and credit card CVV/CVC verification codes, as well as customers' names, addresses, phone numbers and emails.\n While the obfuscated Magecart script can still be found on the\u00a0forbesmagazine.com\u00a0website, the domain used by the attackers to collect the stolen payment information has been taken down using Freenom's\u00a0abuse API which makes it possible to take\u00a0down malicious domains immediately.\n The deobfuscated version of the Magecart script can be found HERE, with the script showing the exact payment data collected by the cybercriminals, as well as the address of the server where the skimmed info was being sent to.\n\n\u00a0 WARNING @Forbes Magazine subscription website (https://t.co/VqCahQHj9X) is infected with #magecart malware.\n",
+        "roles": {
+            "adversary": [
+                [
+                    "attackers.",
+                    "attackers"
+                ]
+            ],
+            "capability": [
+                [
+                    "malicious domains"
+                ],
+                [
+                    "Magecart script",
+                    "Magecart script"
+                ]
+            ],
+            "infrastructure": [
+                [
+                    "card numbers",
+                    "expiration dates",
+                    "credit card CVV/CVC verification codes"
+                ],
+                [
+                    "phone numbers"
+                ],
+                [
+                    "forbesmagazine.com\u00a0website"
+                ],
+                [
+                    "Freenom's\u00a0abuse API"
+                ],
+                [
+                    "Forbes' subscription website"
+                ]
+            ],
+            "victim": [
+                [
+                    "payment card data"
+                ]
+            ]
+        }
+    }
+}
